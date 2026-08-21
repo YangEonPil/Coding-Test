@@ -1,5 +1,5 @@
 class Solution {
-    public int solution(float num1, float num2) {
-        return (int)((num1/num2) * 1000);
+    public int solution(int num1, int num2) {
+        return (int)(((double)num1/num2) * 1000);
     }
 }
